@@ -36,7 +36,7 @@ mvn package spring-boot:repackage
 ```
 docker build {folder-name}
 ```
-## Step 4: Run image by docker desktop or cmd:
+## Step 5: Run image by docker desktop or cmd:
 ```
 docker run --publish 8080:8080 image_name
 ```
