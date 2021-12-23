@@ -34,7 +34,7 @@ mvn package spring-boot:repackage
 ```
 ## Step 4: Use cmd to build an image by docker:
 ```
-docker build {folder-name}
+docker build {folder-name} -t username dockerhub/name-images
 ```
 ## Step 5: Run image by docker desktop or cmd:
 ```
